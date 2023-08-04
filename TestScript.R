@@ -17,10 +17,6 @@ Processed_dataset <- Input_dataset %>%
 # Visualise data
 g <- ggplot(data = Processed_dataset) +
   geom_point(aes(x=fbi, y=wf_co2, colour= as.factor(sampyear)))
- HEAD
-
-
-
 g
 
 ## Hello - EWan here!!
